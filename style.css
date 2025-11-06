@@ -1,0 +1,37 @@
+body {
+			color: #696969;
+			font-family: Palatino Linotype;
+		}
+h1{
+			font-size: 50px;
+		}
+#abzac{
+	color: hotpink;
+	font-size: 30px;
+			font-family: Book Antiqua;
+}
+#abzac2{
+	color: #FF00FF;
+	font-size: 25px;
+			font-family: Book Antiqua;
+}
+.navigation {
+background-color: #FF1493;
+padding: 10px 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
+display: flex;
+gap: 20px;
+align-items: center;
+}
+.navigation a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 10px;
+	transition: background-color 0.3s;
+}
+.navigation a:hover {
+background-color: black;
+}
